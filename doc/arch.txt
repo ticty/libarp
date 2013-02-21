@@ -1,0 +1,23 @@
+
+
+                                      ============================
+                                      + arp.h:dynamic_arp_packet +
+                                      ++++++++++++++++++++++++++++
+                                      + dest_protocol_addr:m     +
+                                      + dest_hw_addr:n           +
+                                      + src_protocol_addr:m      +
+                                      + src_hw_addr:n            +
+Network Layer                         + operate_code:2           +
+                                      + protocol_addr_len:1      +
+                                      + hw_addr_len:1            +
+                                      + protocol_addr_space:2    +
+                                      + hw_addr_space:2          +
+                                      ++++++++++++++++++++++++++++
+
+                                          ====================
+                                          + eth.h:eth_header +
+                                          ++++++++++++++++++++
+Data Link Layer     (Ethernet)            + protocol_type:2  +
+                                          + src_eth_addr:6   +
+                                          + dest_eth_addr:6  +
+                                          ++++++++++++++++++++

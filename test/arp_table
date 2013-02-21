@@ -1,0 +1,17 @@
+# format:
+#		ip					mac					interface
+# if interface name is "*", then it is a globle arp entry
+# example:
+#	192.168.1.1		12:34:56:78:90:ab         wlan0
+#	110.112.119.120	ff:ff:ff:ff:ff:ff				*
+
+
+#wlan0
+60.174.128.1	12:34:56:78:90:ab		wlan0
+
+#eth0
+10.11.99.254     12:34:56:78:90:ab eth0
+#10.11.98.200     00:26:22:bc:c6:f3 eth0
+#10.11.99.116     00:26:c6:67:07:22 eth0
+#10.11.99.43      00:13:02:ae:65:0c eth0
+

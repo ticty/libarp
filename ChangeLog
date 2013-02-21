@@ -1,0 +1,4 @@
+2012-09-15		guofeng <dev.guofeng@gmail.com>
+	add help infomation to test programs
+	add a `ignreply` option to ARP_server
+
